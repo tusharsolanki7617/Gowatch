@@ -1,0 +1,349 @@
+/*--------------------------------------- navbar ---------------------------------------*/
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{
+    background-color: #ffffff;
+  }
+  header {
+	  height: 70px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px;
+  }
+  header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .navbar .logo {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 2.1rem;
+    text-decoration: none;
+  }
+  .navbar .logo span {
+    color: #ff0000;
+  }
+  .navbar .menu-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+  }
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  .navbar a:hover {
+    color: #ff0303;
+  }
+  .hero-section {
+    height: 100vh;
+    background-image: url("watch.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 60px;
+  }
+  .hero-section .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+  }
+  .hero-section .content h2 {
+    font-size: 3rem;
+    max-width: 600px;
+    line-height: 70px;
+  }
+  .hero-section .content p {
+    font-weight: 300;
+    max-width: 600px;
+    margin-top: 15px;
+  }
+  .hero-section .content button {
+    background: #fff;
+    padding: 12px 30px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    margin-top: 38px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  .hero-section .content button:hover {
+    color: #fff;
+    background: #C06B3E;
+  }
+
+/*--------------------------------------- footterr ---------------------------------------*/
+  .footerr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(7, 7, 7);
+    color: white;
+    padding: 5px;
+}
+
+/*--------------------------------------- card ---------------------------------------*/
+  body{
+    font-family: arial;
+  }
+  .main{
+    margin: 2%;
+    text-align: center;
+  }
+  .card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+  }
+  .image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .title{
+    text-align: center;
+    padding: 10px;
+  }
+  h1{
+    font-size: 20px;  
+  }
+  .des{
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+  }
+  button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+/*--------------------------------------- jqurey ---------------------------------------*/
+  .jqurey{
+    padding: 20px;
+  }
+  .h1{
+    margin: 0 0 15px 0;
+    color: rgb(33, 26, 26);
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'poppins',sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+  .more{
+    display: none;
+  }
+  .post{
+    color: rgb(21, 20, 20);
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'work sans',sans-serif;
+  }
+  .read{
+    margin-top: 15px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/*--------------------------------------- footer ---------------------------------------*/
+  .footer {
+    position: absolute;
+    margin-top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1280px;
+    width: 95%;
+    background: #000000;
+    border-radius: 6px;
+  }
+  .footer .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 60px;
+  }
+  .footer-row .footer-col h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer-col .links {
+    margin-top: 20px;
+  }
+  .footer-col .links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .footer-col .links li a {
+    text-decoration: none;
+    color: #bfbfbf;
+  }
+  .footer-col .links li a:hover {
+    color: #ff0000;
+  }
+  .footer-col p {
+    margin: 20px 0;
+    color: #bfbfbf;
+    max-width: 300px;
+  }
+
+/*--------------------------------------- last-footer ---------------------------------------*/
+  #footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+    transform: translate(-0%,50%);
+  }
+  .imgg {
+    margin-left: 561.5px;
+    display: flex;
+    width: 150px;
+    height: 170px;
+  }
+  .footer-logo {
+    margin-left: 550px;
+    display: flex;
+    height: 30px;
+  }
+  
+/*--------------------------------------- loading ---------------------------------------*/
+  .loading-overlay { 
+		position: fixed; 
+		width: 100%; 
+		height: 100%; 
+		background-color: rgba(255, 255, 255, 0.8); 
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center; 
+		align-items: center; 
+		z-index: 9999; 
+	} 
+
+	.loading-text { 
+		font-size: 18px; 
+		margin-top: 10px; 
+		color: black; 
+	} 
+	.loading-spinner { 
+		border: 4px solid #f3f3f3; 
+		border-top: 4px solid #ff0303; 
+		border-radius: 50%; 
+		width: 40px; 
+		height: 40px; 
+		animation: spin 1s linear infinite; 
+	} 
+	@keyframes spin { 
+		0% { 
+			transform: rotate(0deg); 
+		} 
+
+		100% { 
+			transform: rotate(360deg); 
+		} 
+	} 
+/*--------------------------------------- scrollup ---------------------------------------*/
+  html {
+    scroll-behavior: smooth;
+  }
+  .scrollUp {
+	  display: -webkit-flex;
+	  display: -moz-flex;
+	  display: -ms-flex;
+	  display: -o-flex;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 28px;
+	  color: #fff;
+	  text-decoration: none;
+	  opacity: 0;
+	  pointer-events: none;
+	  transition: all .4s;
+	  background: rgb(232, 11, 11);
+	  position: fixed;
+	  bottom: 16px;
+	  right: 32px;
+	  height: 45px;
+	  width: 45px;
+	  border-radius: 5px;
+  }
+  .scrollUp.active {
+	  bottom: 32px;
+	  pointer-events: auto;
+	  opacity: 1;
+	  transform: translateY(-50px);
+  }
+/*--------------------------------popup-----------------------------------*/
+  .pop{
+    height: 240px;
+    width: 300px;
+    padding: 10px;
+    background: white;
+    transform: scale(0.1);
+    transition: .5s;
+    visibility: hidden;
+    position: absolute;
+    top: 1150px;
+    left: 530px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 20px black;
+  } 
+  .pop img{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+  .pop h3{
+    padding-left: 15px;
+    padding-right: 15px;
+  } 
+  #btn0{
+    height: 30px;
+    width: 70px;
+    background-color: #050401;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+  }

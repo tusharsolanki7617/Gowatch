@@ -1,0 +1,172 @@
+/*--------------------------------------- card ---------------------------------------*/
+  *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: arial;
+    }
+    .main{
+      margin: 2%;
+      text-align: center;
+    }
+    .card{
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+    }
+    .image img{
+      width: 100%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    .title{
+      text-align: center;
+      padding: 10px;
+    }
+    h1{
+      font-size: 20px;
+    }
+    .des{
+      padding: 3px;
+      text-align: center;
+      padding-top: 10px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    button{
+      margin-top: 40px;
+      margin-bottom: 10px;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding:10px;
+    }
+    button:hover{
+      background-color: black;
+      color: white;
+      transition: .5s;
+      cursor: pointer;
+    }
+/*--------------------------------------- navbar ---------------------------------------*/
+    header {
+      height: 70px;
+      background: rgb(0, 0, 0);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 14px;
+    }
+    header .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .navbar .logo {
+      color: #fff;
+      font-weight: 800;
+      font-size: 2.1rem;
+      text-decoration: none;
+    }
+    .navbar .logo span {
+      color: #ff0000;
+    }
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+    .navbar a:hover {
+      color: #ff0000;
+    }
+    .navbar .menu-links {
+      display: flex;
+      list-style: none;
+      gap: 35px;
+    }
+/*--------------------------------------- footer ---------------------------------------*/
+    .footer {
+      position: absolute;
+      margin-top: 23%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 1280px;
+      width: 95%;
+      background: #000000;
+      border-radius: 6px;
+    }
+    .footer .footer-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 3.5rem;
+      padding: 60px;
+    } 
+    .footer-row .footer-col h4 {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+    .footer-col .links {
+      margin-top: 20px;
+    }
+    .footer-col .links li {
+      list-style: none;
+      margin-bottom: 10px;
+    }
+    .footer-col .links li a {
+      text-decoration: none;
+      color: #bfbfbf;
+    }
+    .footer-col .links li a:hover {
+      color: #ff0000;
+    }
+    .footer-col p {
+      margin: 20px 0;
+      color: #bfbfbf;
+      max-width: 300px;
+    }
+    .img {
+      margin-left: 542px;
+      display: flex;
+      width: 150px;
+      height: 150px;
+    }
+/*--------------------------------------- woman-img ---------------------------------------*/
+    section {
+      padding: 20px;
+      background-color: #fff;
+    }
+    .product {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: 300;
+      margin-right: 495px;
+    }
+    .product img {
+      max-width: 1000px;
+      max-height: 320px;
+      margin-right: 65px;
+    }
+    .p {
+      max-width: 85vw;
+      margin: 0 auto;
+      padding: 0vw;
+    }
+    h3{
+      text-transform: uppercase;
+    }

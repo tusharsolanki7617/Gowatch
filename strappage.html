@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Straps</title>
+
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="strappage.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+<!--------------------------------------- navbar --------------------------------------->
+    <header>
+        <nav class="navbar">
+          <a class="logo" href="index.html">Gowatch<span>.</span></a>
+          <ul class="menu-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menpage.html">MEN</a></li>
+          <li><a href="womanpage.html">WOMAN</a></li>
+          <li><a href="about us.html">ABOUT US</a></li>
+          <li><a href="strappage.html">STRAPS</a></li>
+        </ul>
+        </nav>
+      </header>
+<!--------------------------------------- img-1 --------------------------------------->
+      <div class="container">
+        <img src="strap.avif" alt="Image Description">
+        <div class="bottom-text">
+            <p>STRAPS</p>
+        </div>
+    </div>
+<br><br>
+  <div class="text">
+      <p>FIND A STRAP THAT MATCHES YOU!</p>
+  </div>
+  <br><br>
+
+  <div class="p">
+  <p>On the back of each Gowatch, you can find the reference number corresponding to the family of product.<br>
+    It always starts with T, and is followed by 6 to 13 numbers.
+    <br><br>
+    To find a compatible strap, enter the reference in the search field above. The website will display all compatible straps.
+    <br><br>
+    Change your watch’s style or simply make it your own by changing the strap. Gowatch has created watches with easily interchangeable<br> strap systems so that you can make them unique.
+  </p>
+</div>
+<!--------------------------------------- img-2 --------------------------------------->
+<section>
+  <img src="straps.jpg">
+</section>
+<!--------------------------------------- paragraph --------------------------------------->
+<div class="t1">
+  <p>TEXTILE</p>
+</div>
+<br><br>
+
+<div class="p1">
+<p>
+  The textile strap is a practical and stylish accessory that can effortlessly withstand extreme circumstances while still looking good.
+   A straightforward design uses a strong fabric and stainless steel buckle for a no-frills look, while a range of colors means wearers
+   can choose the color that best reflects their personality.                    
+</p>
+</div>
+<!--------------------------------------- jqurey --------------------------------------->
+<section class="jqurey">
+  <div class="post">
+      <span class="more">
+        <!-- SILICONE -->
+        <div class="t1">
+          <p>SILICONE</p>
+        </div>
+        <br><br>
+        <div class="p1">
+        <p>
+          The silicone bracelets are made of durable and natural material that performs well under all climate conditions. In addition to being comfortable to wear,
+           they are easy to clean, making them ideal for sports and adding an extra edge to your style.                               
+        </p>
+        </div>
+        <!-- STEEL -->
+        <div class="t1">
+          <p>STEEL</p>
+        </div>
+        <br><br>
+        <div class="p1">
+        <p>
+          For the manufacturing of all steel bracelets, Tissot has selected a very high quality of stainless steel from the 316L family.
+           The advantages of this steel are its high corrosion resistance and excellent durability. Additionally,
+           it will add sophistication to your look. Steel bracelets are available only in our boutiques.                                                  
+        </p>
+        </div>
+        <!-- LEATHER -->
+        <div class="t1">
+          <p>LEATHER</p>
+        </div>
+        <br><br>
+        <div class="p1">
+        <p>
+          Since the beginning of the 20th century Tissot offers watches with leather straps. Tissot uses mainly cow leather
+           and covers the interior part (the part in contact with the wrist) with a hypoallergenic material. The strap makers are self-taught 
+           craftsmen who learn how to cut the skins, treat, sew and polish them. Normally, they will fix the lining, sewing it on by hand, before threading and
+            making markings for the sewing. Finally, they will paint the edges, applying up to seven layers to ensure a perfect finish.
+           The various leather designs will allow you to express your style and will add a touch of class to any outfit.                                                             
+        </p>
+        </div>
+        <!-- RECYCLED PET (RPET) -->
+        <div class="t1">
+          <p>RECYCLED PET (RPET)</p>
+        </div>
+        <br><br>
+        <div class="p1">
+        <p>
+          The RPET straps are made 100% of recycled plastic (SEABOTTLE), which is certified SEAQUAL® and comes from Oceans to transform marine litter.
+           A textile of our time, with a stylish feel! Additionally to helping save our oceans, it has many properties such as being comfortable, durable,
+            resilient, light and breathable,
+           allowing an active living. The many different colors will allow you to add a touch of fun to your wrist.                                                                                 
+        </p>
+      </div>
+      </span>
+      <button class="read">read more</button>
+  </div>
+</section>
+<!--------------------------------------- jqurey-js --------------------------------------->
+<script type="text/javascript">
+  $(document).ready(function(){
+      $(".read").click(function(){
+          $(this).prev().toggle();
+          $(this).siblings('.dots').toggle();
+          if($(this).text()=='read more'){
+              $(this).text('read less');
+          }
+          else{
+              $(this).text('read more');
+          }
+      });
+  });
+</script>  
+
+<br><br><br><br>  
+<hr>   
+<br>
+<!--------------------------------------- footer --------------------------------------->
+<section class="footer">
+  <img class="img" src="gogoo.png" alt="img">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>STORE</h4>
+        <ul class="links">
+          <li><a href="#">MEN</a></li>
+          <br>
+          <li><a href="#">WOMAN</a></li>
+          <br>
+          <li><a href="#">COLLECTIONS</a></li>
+          <br>
+          <li><a href="#">BRAND</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>CORPORATE GIFT</h4>
+        <ul class="links">
+          <li><a href="#">STORE LOCATOR</a></li>
+          <br>
+          <li><a href="#">CUSTOMER SERVICE</a></li>
+          <br>
+          <li><a href="#">PRESS LOUNGE</a></li>
+          <br>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>NEED ASSISTANCE?</h4>
+        <ul class="links">
+          <li><a href="#">CONDITIONS OF SALE</a></li>
+          <br>
+          <li><a href="#">PRIVACY NOTICE</a></li>
+          <br>
+          <li><a href="#">COOKIE NOTICE</a></li>
+          <br>
+          <li><a href="#">COOKIE SETTINGS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>NEWSLETTER</h4>
+        <p>
+          Subscribe to our newsletter for a weekly <br><br>dose
+          of news, updates, helpful tips, and<br><br>
+          exclusive offers.
+        </p>
+      </div>
+    </div>
+  </section>
+      
+  </body>
+  </html>
